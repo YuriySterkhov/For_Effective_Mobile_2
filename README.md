@@ -26,8 +26,8 @@
 ## Выбор проекта
 
 - Командами CLI Windows войдите в папку
-    - проекта E2E UI: `cd "E2E UI"`
-    - или проекта GitHub API: `cd "GitHub API"`
+    - проекта E2E UI: `cd "For_Effective_Mobile_2\E2E UI"`
+    - или проекта GitHub API: `For_Effective_Mobile_2\cd "GitHub API"`
 
 ## Дальнейшие действия
 
