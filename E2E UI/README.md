@@ -14,7 +14,7 @@
 
 ## Запуск теста
 
-    - Командой CLI Windows запустите тест: `python test_purchase.py`
+Командой CLI Windows запустите тест: `python test_purchase.py`
 
 ## Ожидаемый результат
 
@@ -23,5 +23,5 @@
 
 ## Завершение работы
 
-1. Командой CLI Windows деактивируйте виртуальное окружение: venv\Scripts\deactivate
+1. Командой CLI Windows деактивируйте виртуальное окружение: `venv\Scripts\deactivate`.
 2. Закройте окно CLI Windows.

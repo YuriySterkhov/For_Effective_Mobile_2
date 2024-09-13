@@ -17,6 +17,7 @@ GITHUB_TOKEN=your_github_token
 REPO_NAME=your_test_repository_name
 
 Замените your_github_username, your_github_token и your_test_repository_name на ваши реальные данные.
+
 4. Сохраните изменения в файле .env.
 5. Закройте окно "Блокнот".
 6. Разверните окно CLI Windows.
