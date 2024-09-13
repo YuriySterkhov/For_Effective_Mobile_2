@@ -4,27 +4,17 @@
 
 ## Установка
 
-1. Убедитесь, что в CLI Windows открыта папка E2EUI.
+1. Убедитесь, что в CLI Windows открыта папка E2E UI.
 
-2. Командами CLI Windows установите
- виртуальное окружение:   
-                                   python -m venv venv
- активируйте
- виртуальное окружение:
-                                   venv\Scripts\activate 
- установите в виртуальное окружение
- дополнительные пакеты:   
-                                    pip install -r requirements.txt
- обновите webdriver-manager для
- предотвращения проблем
- с совместимостью:
-                                    pip install --upgrade webdriver-manager
+2. Командами CLI Windows
+    - установите виртуальное окружение: `python -m venv venv`
+    - активируйте виртуальное окружение: `venv\Scripts\activate` 
+    - установите в виртуальное окружение дополнительные пакеты: `pip install -r requirements.txt`
+    - обновите webdriver-manager для предотвращения проблем с совместимостью: `pip install --upgrade webdriver-manager`
 
 ## Запуск теста
 
-Командой CLI Windows запустите
- тест:
-                                python test_purchase.py
+    - Командой CLI Windows запустите тест: `python test_purchase.py`
 
 ## Ожидаемый результат
 
@@ -33,7 +23,5 @@
 
 ## Завершение работы
 
-1. Командой CLI Windows деактивируйте 
- виртуальное окружение:
-                                   venv\Scripts\deactivate
+1. Командой CLI Windows деактивируйте виртуальное окружение: venv\Scripts\deactivate
 2. Закройте окно CLI Windows.

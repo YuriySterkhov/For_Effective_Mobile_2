@@ -5,14 +5,15 @@
 ## Настройка переменных окружения
 
 1. Сверните окно CLI Windows.
-2. Используя проводник Windows, найдите и откройте
- в клонированном репозитории папку GitHub API.
-3. Командой контекстного меню "Открыть с помощью"
- откройте файл env. в "Блокнот".
- Содержимое файла .env:
+2. Используя проводник Windows, найдите и откройте в клонированном репозитории папку GitHub API.
+3. Командой контекстного меню "Открыть с помощью" откройте файл env. в "Блокнот".
+
+Содержимое файла .env:
 
 GITHUB_USERNAME=your_github_username
+
 GITHUB_TOKEN=your_github_token
+
 REPO_NAME=your_test_repository_name
 
 Замените your_github_username, your_github_token и your_test_repository_name на ваши реальные данные.
@@ -23,22 +24,14 @@ REPO_NAME=your_test_repository_name
 ## Установка
 
 1. Убедитесь, что в CLI Windows открыта папка GitHub API.
-
-2. Командами CLI Windows установите
- виртуальное окружение:   
-                                   python -m venv venv
- активируйте
- виртуальное окружение:
-                                   venv\Scripts\activate 
- установите в виртуальное окружение
- дополнительные пакеты:   
-                                    pip install -r requirements.txt
+2. Командами CLI Windows
+    - установите виртуальное окружение: `python -m venv venv`
+    - активируйте виртуальное окружение: `venv\Scripts\activate`
+    - установите в виртуальное окружение дополнительные пакеты: `pip install -r requirements.txt`
 
 ## Запуск теста
 
-Командой CLI Windows запустите
- тест:
-                                python test_api.py
+Командой CLI Windows запустите тест: `python test_api.py`
 
 ## Ожидаемый результат
 
@@ -47,8 +40,6 @@ REPO_NAME=your_test_repository_name
 
 ## Завершение работы
 
-1. Командой CLI Windows деактивируйте 
- виртуальное окружение:
-                                   venv\Scripts\deactivate
+1. Командой CLI Windows деактивируйте виртуальное окружение: `venv\Scripts\deactivate`.
 2. Закройте окно CLI Windows.
 3. Удалите ваши реальные данные из файла env.
